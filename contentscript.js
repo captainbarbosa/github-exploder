@@ -12,7 +12,7 @@ if (githubSignIn.length > 0) {
     // Create button
     var tabNav = document.getElementsByClassName("tabnav-tabs")[0];
     var explodeButton = document.createElement("button");
-    // Add butting styling
+    // Add button styling
     explodeButton.classList.add("btn", "btn-sm", "float-right", "mr-1");
     explodeButton.style.backgroundImage = "none";
     explodeButton.style.background = "linear-gradient(to bottom, #fff5b1 0%, #ffdf5d 100%)";
