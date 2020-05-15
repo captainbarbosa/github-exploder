@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "GitHub Exploder",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Explode your GitHub notifications into new tabs",
   "page_action": {
     "default_title": "Explode notifications",
@@ -13,7 +13,7 @@
   ],
   "content_scripts": [
    {
-     "matches": ["https://github.com/notifications"],
+     "matches": ["https://github.com/notifications?*"],
      "js": ["contentscript.js"]
    }
  ]
